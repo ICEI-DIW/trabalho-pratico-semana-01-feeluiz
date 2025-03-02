@@ -3,11 +3,12 @@
 # Trabalho Prático - Semana-01
 
 ## Informações Gerais
-Nome: 
-Matricula: 
+Nome: Fernando Luiz Lessa de Araújo
+Matricula: 685184
 
 ## Tela de inspeção com navegador
-
+![Hacker News](images/hackernews.png)
 
 ## Tela de projeto no Replit
 
+![Projeto Olá Mundo](images/olamundo.png)
