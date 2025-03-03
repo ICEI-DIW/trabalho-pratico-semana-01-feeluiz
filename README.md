@@ -12,3 +12,8 @@ Matricula: 685184
 ## Tela de projeto no Replit
 
 ![Projeto Olá Mundo](images/olamundo.png)
+
+
+## Semana 2 - Atividade Prática
+
+![Projeto Currículo](images/curriculo.png)
