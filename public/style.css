@@ -85,16 +85,22 @@ main {
     color: #555;
 }
 
-.perfil-container {
-    height: 250px;
-    padding-top: 70px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.favorite-btn {
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
-.container {
-    min-height: 100vh;
+.favorite-btn:hover {
+    background-color: #e55347;
 }
 
 .sidenav {
