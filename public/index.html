@@ -18,6 +18,8 @@
         </nav>
     </header>
 
+    <main>
+        <section class="recipe-cards">
             <article class="recipe-card">
                 <img src="https://picsum.photos/id/1/200/300" alt="Imagem de receita 1">
                 <h2>Salada de Frutas</h2>
@@ -40,31 +42,19 @@
             </article>
         </section>
 
-            <section class="educacao">
-                <h2>Educação</h2>
-                <ul>
-                    <li>
-                        <h3>Curso de Desenvolvimento Web - TechVision University</h3>
-                        <p><strong>Duração:</strong> 2020 - 2023</p>
-                    </li>
-                    <li>
-                        <h3>Curso Técnico em Informática - Digital Academy</h3>
-                        <p><strong>Duração:</strong> 2017 - 2019</p>
-                    </li>
-                </ul>
-            </section>
-
-            <section class="habilidades">
-                <h2>Habilidades</h2>
-                <ul>
-                    <li>HTML5 & CSS3</li>
-                    <li>JavaScript e React</li>
-                    <li>Git & Controle de Versões</li>
-                    <li>Design Responsivo</li>
-                </ul>
-            </section>
-        </div>
-    </div>
+        <section class="search-section">
+            <h2>Pesquisar Receita</h2>
+            <form action="#" method="get">
+                <label for="search-name">Nome da Receita:</label>
+                <input type="text" id="search-name" name="search-name" placeholder="Digite o nome da receita">
+                
+                <label for="search-ingredient">Ingrediente:</label>
+                <input type="text" id="search-ingredient" name="search-ingredient" placeholder="Digite um ingrediente">
+                
+                <button type="submit">Buscar</button>
+            </form>
+        </section>
+    </main>
 
 </body>
 </html>
